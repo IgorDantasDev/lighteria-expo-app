@@ -5,8 +5,6 @@
   <a href="#warning-about">About</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#wrench-versions">Versions</a> &#xa0; | &#xa0;
-  <a href="#floppy_disk-starting-our-api">API</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting-our-project">Starting</a> &#xa0; | &#xa0;
   <a href="#file_folder-folder-structure">Folder Structure</a> &#xa0; | &#xa0;
 </p>
 <h2 align="left"></h2>
@@ -48,7 +46,7 @@
 - [React](https://react.dev) - Version ~> "^18.2.0"
 - [Styled Components](styled-components.com) - Version ~> "^6.1.8"
 
-<h3 align="right">This project was created using Expo</h3>
+<h3 align="center">This project was created using Expo</h3>
 
 ###
 
