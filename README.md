@@ -11,11 +11,7 @@
 </p>
 <h2 align="left"></h2>
 
-###
 
-<img align="right" height="325" src="https://vitejs.dev/logo-with-shadow.png"  />
-
-###
 
 ### :rocket: Technologies
 
