@@ -8,7 +8,6 @@
   <a href="#floppy_disk-starting-our-api">API</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting-our-project">Starting</a> &#xa0; | &#xa0;
   <a href="#file_folder-folder-structure">Folder Structure</a> &#xa0; | &#xa0;
-  <a href="#construction_worker-develops">Develops</a>
 </p>
 <h2 align="left"></h2>
 
@@ -50,8 +49,8 @@
 
 ###
 
-- [ReactNative](reactnative.dev) - Version ~> "^18.2.0"
-- [Styled Components](styled-components.com) - Version ~> "^5.3.5"
+- [React](https://react.dev) - Version ~> "^18.2.0"
+- [Styled Components](styled-components.com) - Version ~> "^6.1.8"
 
 <h3 align="right">This project was created using Expo</h3>
 
