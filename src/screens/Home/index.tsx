@@ -1,7 +1,6 @@
 import React from 'react';
-import {Container, HeaderContainer, IconCircle, TextContainer} from './styles';
+import {Container, HeaderContainer, TextContainer} from './styles';
 import {Text} from '~/components/Text';
-import {Icon} from '~/components/Icon';
 import {Divider} from '~/components/Divider';
 import {Separator} from '~/components/Separator';
 import {ProductsFlatlist} from '~/components/ProductsFlatlist';

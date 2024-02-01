@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import {FlatList, Pressable} from 'react-native';
-import {Container, FinishPurchaseContainer, Scroll} from './styles';
+import {Container, FinishPurchaseContainer} from './styles';
 import {Text} from '~/components/Text';
 import {DataContext} from '~/context';
 import {IContext} from '~/@types/IContext';
@@ -35,6 +35,7 @@ export const Checkout: React.FC = () => {
         ItemSeparatorComponent={() => <Separator height={10} />}
         renderItem={({item}) => (
           <CheckoutProductCard
+            id={item.id}
             quantidade={item.quantity}
             preco={item.preco}
             titulo={item.titulo}

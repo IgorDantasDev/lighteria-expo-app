@@ -1,7 +1,7 @@
 import {RFValue} from 'react-native-responsive-fontsize';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import styled from 'styled-components/native';
-import {ACTIONBUTTON, BACKGROUNDCOLOR} from '~/constants/themes';
+import {BACKGROUNDCOLOR} from '~/constants/themes';
 
 export const Container = styled(SafeAreaView)`
   background-color: ${BACKGROUNDCOLOR};

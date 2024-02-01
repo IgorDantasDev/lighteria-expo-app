@@ -1,5 +1,4 @@
-import React, {useContext, useMemo} from 'react';
-import {View} from 'react-native';
+import React, {useContext} from 'react';
 import {
   Container,
   Content,
@@ -10,8 +9,6 @@ import {
 import {CheckoutProductCardProps} from './types';
 import {Text} from '~/components/Text';
 import {Separator} from '~/components/Separator';
-import {DataContext} from '~/context';
-import {IContext} from '~/@types/IContext';
 import {formatValue} from '~/utils/format';
 
 export const CheckoutProductCard = ({
@@ -20,16 +17,7 @@ export const CheckoutProductCard = ({
   titulo,
   estudio,
   quantidade,
-  id,
 }: CheckoutProductCardProps) => {
-  const {itemsCheckout} = useContext<IContext>(DataContext);
-
-  const currentItemQuantity = useMemo(() => {
-    return itemsCheckout.find(e => {
-      e.id === id;
-    });
-  }, [itemsCheckout, preco]);
-
   return (
     <Container>
       <Content>

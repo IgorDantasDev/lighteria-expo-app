@@ -1,6 +1,6 @@
 import {RFValue} from 'react-native-responsive-fontsize';
 import styled from 'styled-components/native';
-import {BACKGROUNDCOLOR, WHITE} from '~/constants/themes';
+import {WHITE} from '~/constants/themes';
 
 export const Container = styled.View`
   border-radius: ${RFValue(10)}px;

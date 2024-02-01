@@ -1,5 +1,4 @@
 import React, {useContext} from 'react';
-
 import {Text} from '../Text';
 import {Container, Content, ItemInfoContainer, ProductImage} from './styles';
 import {Button} from '../Button';
