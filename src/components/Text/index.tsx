@@ -1,10 +1,10 @@
-import React from "react";
-import { Container } from "./styles";
-import { TextComponentProps } from "./types";
+import React from 'react';
+import {Container} from './styles';
+import {type TextComponentProps} from './types';
 
 export const Text = ({
   children,
-  color = "black",
+  color = 'black',
   isBold,
   size = 14,
   textAlign,

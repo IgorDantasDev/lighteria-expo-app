@@ -1,9 +1,9 @@
-import styled from "styled-components/native";
-import { TextComponentProps } from "./types";
+import styled from 'styled-components/native';
+import {TextComponentProps} from './types';
 
 export const Container = styled.Text<TextComponentProps>`
-  font-size: ${({ size }) => size}px;
-  color: ${({ color }) => color};
-  ${({ isBold }) => isBold && "font-weight: bold"};
-  text-align: ${({ textAlign }) => textAlign};
+  font-size: ${({size}) => size}px;
+  color: ${({color}) => color};
+  ${({isBold}) => isBold && 'font-weight: bold'};
+  text-align: ${({textAlign}) => textAlign};
 `;

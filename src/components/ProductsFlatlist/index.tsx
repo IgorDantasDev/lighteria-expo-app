@@ -1,9 +1,9 @@
-import React from "react";
-import { FlatList } from "react-native";
-import { ProductContainer } from "../ProductContainer";
-import { Container } from "./styles";
-import { DATA } from "~/utils/data";
-import { Separator } from "../Separator";
+import React from 'react';
+import {FlatList} from 'react-native';
+import {ProductCard} from '../ProductCard';
+import {Container} from './styles';
+import {DATA} from '~/utils/data';
+import {Separator} from '../Separator';
 
 export const ProductsFlatlist: React.FC = () => {
   return (
@@ -13,9 +13,7 @@ export const ProductsFlatlist: React.FC = () => {
         data={DATA}
         numColumns={2}
         ItemSeparatorComponent={() => <Separator width={10} />}
-        renderItem={({ item }) => (
-          <ProductContainer imagem={item.imagem} titulo={item.titulo} />
-        )}
+        renderItem={({item}) => <ProductCard {...item} />}
       />
     </Container>
   );

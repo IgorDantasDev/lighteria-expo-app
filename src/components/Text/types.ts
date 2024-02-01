@@ -1,6 +1,6 @@
-import { TextProps } from "react-native";
+import {TextProps} from 'react-native';
 
-export type TextAlignOptions = "end" | "justify" | "center" | "start";
+export type TextAlignOptions = 'end' | 'justify' | 'center' | 'start';
 
 export interface TextComponentProps extends TextProps {
   size?: number;
