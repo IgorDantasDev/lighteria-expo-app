@@ -88,12 +88,12 @@ Start the application
 ```plaintext
 .
 ├─ src                   # Source files
-|  ├─ assets             # Contains Js bundles assets. e.g: icons
+|  ├─ assets             # Contains Js bundles assets. e.g: icons, images
 |  ├─ components         # Contains all global react components
 |  ├─ constants          # Constants files as icons and themes
-|  ├─ context            # Contains global context of the website
+|  ├─ context            # Contains global context of the application
 |  ├─ screens             # Contains application screens
-|  ├─ utils              # Contains json files
+|  ├─ utils              # Contains a mocked data and an util file
 .
 └─ README.md
 ```
