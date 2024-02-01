@@ -9,8 +9,6 @@
 </p>
 <h2 align="left"></h2>
 
-
-
 ### :rocket: Technologies
 
 ###
@@ -92,7 +90,7 @@ Start the application
 ├─ src                   # Source files
 |  ├─ assets             # Contains Js bundles assets. e.g: icons
 |  ├─ components         # Contains all global react components
-|  ├─ constants          # Constants files
+|  ├─ constants          # Constants files as icons and themes
 |  ├─ context            # Contains global context of the website
 |  ├─ screens             # Contains application screens
 |  ├─ utils              # Contains json files

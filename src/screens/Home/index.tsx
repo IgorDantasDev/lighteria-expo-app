@@ -1,15 +1,11 @@
-import React from "react";
-import {
-  Container,
-  HeaderContainer,
-  IconCircle,
-  TextContainer,
-} from "./styles";
-import { Text } from "~/components/Text";
-import { Icon } from "~/components/Icon";
-import { Divider } from "~/components/Divider";
-import { Separator } from "~/components/Separator";
-import { ProductsFlatlist } from "~/components/ProductsFlatlist";
+import React from 'react';
+import {Container, HeaderContainer, IconCircle, TextContainer} from './styles';
+import {Text} from '~/components/Text';
+import {Icon} from '~/components/Icon';
+import {Divider} from '~/components/Divider';
+import {Separator} from '~/components/Separator';
+import {ProductsFlatlist} from '~/components/ProductsFlatlist';
+import {Bag} from '~/components/Bag';
 
 export const Home: React.FC = () => {
   return (
@@ -18,9 +14,7 @@ export const Home: React.FC = () => {
         <Text size={28} isBold>
           Lighteria
         </Text>
-        <IconCircle>
-          <Icon color="black" size={20} icon="bag" />
-        </IconCircle>
+        <Bag />
       </HeaderContainer>
       <Separator height={10} />
       <Divider />

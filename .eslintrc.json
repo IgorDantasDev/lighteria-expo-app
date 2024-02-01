@@ -16,7 +16,9 @@
         "tsx": "never"
       }],
       "react/jsx-filename-extension": [1, {"extension": [".tsx"]}],
-      "eslint-plugin-import/prefer-default-export": "off"
+      "eslint-plugin-import/prefer-default-export": "off",
+      "@typescript-eslint/prefer-nullish-coalescing": "never",
+      "@typescript-eslint/strict-boolean-expressions": "never",
     },
     "settings": {
       "import/resolver": {
