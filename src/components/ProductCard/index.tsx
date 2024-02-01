@@ -1,8 +1,8 @@
 import React from 'react';
 import {Container, ProductImage, ProductName} from './styles';
-import {type ProductProps} from './types';
 import {Separator} from '../Separator';
 import {useNavigation} from '@react-navigation/native';
+import {IProduct} from '~/@types/IProduct';
 
 export const ProductCard = ({
   imagem,
@@ -10,16 +10,20 @@ export const ProductCard = ({
   estudio,
   itemDesc,
   preco,
-}: ProductProps) => {
+  id,
+  quantity,
+}: IProduct) => {
   const {navigate} = useNavigation();
 
   const handleGoToDetails = () =>
     navigate('ProductDetails', {
-      preco,
-      titulo,
-      itemDesc,
-      estudio,
       imagem,
+      titulo,
+      estudio,
+      itemDesc,
+      preco,
+      id,
+      quantity,
     });
   return (
     <Container onPress={handleGoToDetails}>

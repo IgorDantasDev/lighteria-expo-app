@@ -6,22 +6,17 @@ import {Background} from '~/components/Background';
 
 import {Container, Content} from './styles';
 import {ProductDetailedCard} from '~/components/ProductDetailedCard';
+import {StatusBar} from 'expo-status-bar';
 
 export const ProductDetails = ({route}) => {
-  const {titulo, preco, estudio, itemDesc, imagem} = route.params;
-  console.log(titulo);
-  console.log(preco);
+  const product = route.params;
+
   return (
     <Container>
+      <StatusBar hidden />
       <Background />
       <Content>
-        <ProductDetailedCard
-          estudio={estudio}
-          itemDesc={itemDesc}
-          preco={preco}
-          imagem={imagem}
-          titulo={titulo}
-        />
+        <ProductDetailedCard {...product} />
       </Content>
     </Container>
   );

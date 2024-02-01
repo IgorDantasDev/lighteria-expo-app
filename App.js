@@ -4,17 +4,20 @@ import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import {ProductDetails} from '~/screens/ProductDetails';
 import {Checkout} from '~/screens/Checkout';
+import {Provider} from '~/context';
 
 const {Navigator, Screen} = createStackNavigator();
 
 const App = () => {
   return (
     <NavigationContainer>
-      <Navigator screenOptions={{headerShown: false}} initialRouteName="Home">
-        <Screen name="Home" component={Home} />
-        <Screen name="ProductDetails" component={ProductDetails} />
-        <Screen name="Checkout" component={Checkout} />
-      </Navigator>
+      <Provider>
+        <Navigator screenOptions={{headerShown: false}} initialRouteName="Home">
+          <Screen name="Home" component={Home} />
+          <Screen name="ProductDetails" component={ProductDetails} />
+          <Screen name="Checkout" component={Checkout} />
+        </Navigator>
+      </Provider>
     </NavigationContainer>
   );
 };
