@@ -4,7 +4,7 @@ import {ACTIONBUTTON} from '~/constants/themes';
 
 export const Container = styled.TouchableOpacity`
   width: 100%;
-  height: ${RFValue(30)}px;
+  height: ${RFValue(40)}px;
   background-color: ${ACTIONBUTTON};
   align-items: center;
   justify-content: center;

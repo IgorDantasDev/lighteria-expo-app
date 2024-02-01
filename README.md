@@ -88,6 +88,7 @@ Start the application
 ```plaintext
 .
 ├─ src                   # Source files
+|  ├─ @types             # Contains all global definitions of types and interfaces
 |  ├─ assets             # Contains Js bundles assets. e.g: icons, images
 |  ├─ components         # Contains all global react components
 |  ├─ constants          # Constants files as icons and themes

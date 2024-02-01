@@ -7,10 +7,9 @@ export const Text = ({
   color = 'black',
   isBold,
   size = 14,
-  textAlign,
 }: TextComponentProps) => {
   return (
-    <Container color={color} size={size} isBold={isBold} textAlign={textAlign}>
+    <Container color={color} size={size} isBold={isBold}>
       {children}
     </Container>
   );

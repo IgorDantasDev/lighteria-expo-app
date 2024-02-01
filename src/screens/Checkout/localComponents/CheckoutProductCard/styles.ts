@@ -3,17 +3,16 @@ import styled from 'styled-components/native';
 import {WHITE} from '~/constants/themes';
 
 export const Container = styled.View`
+  width: 100%;
+  padding: ${RFValue(16)}px;
   border-radius: ${RFValue(10)}px;
   background-color: ${WHITE};
-  justify-content: center;
-  padding: ${RFValue(16)}px;
-  margin-top: ${RFValue(-48)}px;
-  width: 100%;
-  align-items: center;
+  elevation: 1;
 `;
 
-export const ItemInfoContainer = styled.View`
-  flex: 1;
+export const ProductImage = styled.Image`
+  height: ${RFValue(60)}px;
+  width: ${RFValue(60)}px;
 `;
 
 export const Content = styled.View`
@@ -21,7 +20,11 @@ export const Content = styled.View`
   justify-content: space-between;
 `;
 
-export const ProductImage = styled.Image`
-  height: ${RFValue(80)}px;
-  width: ${RFValue(80)}px;
+export const ItemDescriptionContainer = styled.View`
+  width: 60%;
+  justify-content: center;
+`;
+
+export const ValuesContainer = styled.View`
+  justify-content: center;
 `;
