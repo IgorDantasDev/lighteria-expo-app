@@ -5,5 +5,4 @@ export const Container = styled.Text<TextComponentProps>`
   font-size: ${({size}) => size}px;
   color: ${({color}) => color};
   ${({isBold}) => isBold && 'font-weight: bold'};
-  text-align: ${({textAlign}) => textAlign};
 `;

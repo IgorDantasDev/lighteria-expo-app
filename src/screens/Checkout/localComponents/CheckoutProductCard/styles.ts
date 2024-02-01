@@ -21,10 +21,10 @@ export const Content = styled.View`
 `;
 
 export const ItemDescriptionContainer = styled.View`
+  width: 60%;
   justify-content: center;
 `;
 
 export const ValuesContainer = styled.View`
-  align-items: center;
   justify-content: center;
 `;
